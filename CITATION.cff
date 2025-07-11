@@ -1,0 +1,15 @@
+H. Almasani and H. Ture, “Improving Skin Lesion Classification with Pre-trained Deep Learning Models,” Proc. SIU 2025, IEEE, 2025.
+---
+
+### What changed?
+
+| Old | New |
+|-----|-----|
+| Long notebook cell with repeated code | Modular functions (`build_model`, `train_and_evaluate`) |
+| Hard-coded paths | Central `MODEL_DIR` constant |
+| Scattered callbacks | Reusable `callbacks` list |
+| Duplicate confusion-matrix code | Packed into helper |
+| Mixed plotting / training logic | Clear “main” loop; plots after training |
+
+Push this repo, link it in your paper, and hiring managers / reviewers will see a **clean, reproducible** project instead of ad-hoc notebook cells.
+::contentReference[oaicite:0]{index=0}
